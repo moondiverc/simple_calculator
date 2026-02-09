@@ -1,5 +1,5 @@
 class Calculator:
-    def add(self, a, b):
+    def addFunction(self, a, b):
         return a + b
 
     def subtract(self, a, b):
@@ -11,6 +11,6 @@ class Calculator:
 
 if __name__ == "__main__":
     calc = Calculator()
-    print("Addition: ", calc.add(10, 5))
+    print("Addition Result: ", calc.addFunction(10, 5))
     print("Subtraction: ", calc.subtract(10, 5))
     print("Multiplication: ", calc.multiply(10, 5))
